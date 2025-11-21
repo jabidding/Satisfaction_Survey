@@ -71,10 +71,10 @@ SURVEY_QUESTIONS = [
 
 # Gesture mapping
 GESTURE_MAP = {
-    'thumbs_up': {'label': 'Satisfied', 'score': 4, 'emoji': '❤️'},
-    'heart_sign': {'label': 'Very Satisfied', 'score': 5, 'emoji': '✌'},
-    'thumbs_down': {'label': 'Unsatisfied', 'score': 2, 'emoji': '✋'},
-    'waving_finger': {'label': 'Very Unsatisfied', 'score': 1, 'emoji': '👎'},
+    'thumbs_up': {'label': 'Satisfied', 'score': 4, 'emoji': '👍'},
+    'heart_sign': {'label': 'Very Satisfied', 'score': 5, 'emoji': '❤️'},
+    'thumbs_down': {'label': 'Unsatisfied', 'score': 2, 'emoji': '👎'},
+    'waving_finger': {'label': 'Very Unsatisfied', 'score': 1, 'emoji': '☝️'},
     'closed_fist': {'label': 'No Answer', 'score': None, 'emoji': '✊'}
 }
 
@@ -1523,10 +1523,10 @@ def survey_page():
         st.markdown("""
         **Gesture Guide:**
         
-        ✌ Peace = Very Satisfied (5)
-        ❤️ Heart = Satisfied (4)  
-        ✋ Palm = Unsatisfied (2)
-        👎 Thumbs Down = Very Unsatisfied (1)
+        ❤️ Heart = Very Satisfied (5)
+        👍 Thumbs Up = Satisfied (4)  
+        👎 Thumbs Down = Unsatisfied (2)
+        ☝️ Waving = Very Unsatisfied (1)
         ✊ Fist = No Answer
         """)
         
@@ -1670,5 +1670,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 
 
