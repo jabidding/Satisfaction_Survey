@@ -1523,10 +1523,10 @@ def survey_page():
         st.markdown("""
         **Gesture Guide:**
         
-        ❤️ Heart = Very Satisfied (5)
-        👍 Thumbs Up = Satisfied (4)  
-        👎 Thumbs Down = Unsatisfied (2)
-        ☝️ Waving = Very Unsatisfied (1)
+        ✌ Peace = Very Satisfied (5)
+        ❤️ Heart = Satisfied (4)  
+        ✋ Palm = Unsatisfied (2)
+        👎 Thumbs Down = Very Unsatisfied (1)
         ✊ Fist = No Answer
         """)
         
