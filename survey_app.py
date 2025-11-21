@@ -71,10 +71,10 @@ SURVEY_QUESTIONS = [
 
 # Gesture mapping
 GESTURE_MAP = {
-    'thumbs_up': {'label': 'Satisfied', 'score': 4, 'emoji': '👍'},
-    'heart_sign': {'label': 'Very Satisfied', 'score': 5, 'emoji': '❤️'},
-    'thumbs_down': {'label': 'Unsatisfied', 'score': 2, 'emoji': '👎'},
-    'waving_finger': {'label': 'Very Unsatisfied', 'score': 1, 'emoji': '☝️'},
+    'thumbs_up': {'label': 'Satisfied', 'score': 4, 'emoji': '❤️'},
+    'heart_sign': {'label': 'Very Satisfied', 'score': 5, 'emoji': '✌'},
+    'thumbs_down': {'label': 'Unsatisfied', 'score': 2, 'emoji': '✋'},
+    'waving_finger': {'label': 'Very Unsatisfied', 'score': 1, 'emoji': '👎'},
     'closed_fist': {'label': 'No Answer', 'score': None, 'emoji': '✊'}
 }
 
